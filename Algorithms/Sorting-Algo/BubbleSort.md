@@ -29,3 +29,25 @@ function swap(array, index1, index2) {
 
 console.log(BubbleSort([1, 4, 2, 5, 8, 9, 4])); // [1,2,4,4,5,8,9]
 ```
+
+### Code 2 optimal
+
+```
+function bubbleSort(array) {
+  let swap;
+  do {
+    swap = false;
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] && array[i + 1] && array[i] > array[i + 1]) {
+        const temp = array[i];
+        array[i] = array[i + 1];
+        array[i + 1] = temp;
+        swap = true;
+      }
+    }
+  } while (swap);
+  return array;
+}
+
+console.log(bubbleSort([1, 4, 3, 2])); // [1,2,3,4]
+```
