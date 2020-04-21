@@ -4,7 +4,7 @@ Bubble sort sorts an array, by swapping elements that are in the wrong order. It
 
 ## Time Complexity
 
-Best -> O(n) = Linear
+Best -> O(n) = Linear\n
 Worst -> O(n2) = quadratic
 
 ### CODE 1
