@@ -4,7 +4,8 @@ Bubble sort sorts an array, by swapping elements that are in the wrong order. It
 
 ## Time Complexity
 
-Best -> O(n) = Linear\n
+Best -> O(n) = Linear
+
 Worst -> O(n2) = quadratic
 
 ### CODE 1
@@ -26,5 +27,5 @@ function swap(array, index1, index2) {
   array[index2] = temp;
 }
 
-console.log(BubbleSort([1, 4, 2, 5, 8, 9, 4]));
+console.log(BubbleSort([1, 4, 2, 5, 8, 9, 4])); // [1,2,4,4,5,8,9]
 ```
